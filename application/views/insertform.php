@@ -26,7 +26,17 @@
 																				</tr>
 																				<tr>
 																					<td align="right">เครือข่าย :</td>
-																					<td><input type="text" class="form-control" name="n_id" value=""></td>
+                                          <td><select name="n_id" class="form-control">
+                      											<<?php foreach ($network as $key ): ?>
+                      												<?php if ($data[0]['n_id']==$key['n_id']): ?>
+                      													<option selected value="<?php echo $key['n_id']?>" ><?php echo $key['n_name'] ?></option>
+
+                      												<?php else: ?>
+                      													<option value="<?php echo $key['n_id']?>" ><?php echo $key['n_name'] ?></option>
+
+                      												<?php endif; ?>
+                      											<?php endforeach; ?>
+                      										</select></td>
 																				</tr>
                                         <tr>
 																					<td align="right">จำนวน :</td>
@@ -52,9 +62,4 @@
                     <!--End simple table example -->
 
                 </div>
-
-
-
-</body>
-
-</html>
+</div>
