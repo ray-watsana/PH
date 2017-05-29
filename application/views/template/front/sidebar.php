@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <div id="wrapper">
     <!-- navbar top -->
@@ -236,6 +237,8 @@
 
     <!-- navbar side -->
 
+=======
+>>>>>>> a2674b956c6f42ad6465ff9d65eebd89b61c0ae8
 <body>
     <!-- START PAGE CONTAINER -->
     <div class="page-container">
