@@ -24,11 +24,11 @@ class Welcome extends CI_Controller {
 	}
 	public function insertform()
 	{
-		$pr = $this->modelwelcome->read_phonebrand();
+		$network = $this->modelwelcome->read_network();
 		//$this->load->view('insertform');
 		$value = array(
 			'result' => array(
-				'pr' => $pr
+				'network' => $network
 				//'data' => $query
 			),
 			'views' => 'insertform'

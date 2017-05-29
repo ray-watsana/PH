@@ -28,7 +28,7 @@
 									<tr>
 										<td>Network</td>
 										<td>
-										<select name="n_id">
+										<select name="n_id" class="form-control">
 											<<?php foreach ($network as $key ): ?>
 												<?php if ($data[0]['n_id']==$key['n_id']): ?>
 													<option selected value="<?php echo $key['n_id']?>" ><?php echo $key['n_name'] ?></option>
