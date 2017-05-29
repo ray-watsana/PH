@@ -13,7 +13,7 @@
 
 									<tr>
 										<td>CodePhone</td>
-										<td><input type="text" value="<?php echo $data[0]['p_id']?>" disabled="disabled"></td>
+										<td><input type="text" class="form-control" value="<?php echo $data[0]['p_id']?>" disabled="disabled"></td>
 									</tr>
 
 									<tr>
@@ -48,7 +48,7 @@
 									<tr>
 									<input type="hidden"  name="p_id" value="<?php echo $data[0]['p_id']?>" >
 									<br><br>
-									<td><input type="submit" value="submit" ></td>
+									<td align="center" colspan="3"><input class="btn btn-info" type="submit" value="แก้ไข"></td>
 									<br>
 									<?php echo form_close();?>
 								</tr>
