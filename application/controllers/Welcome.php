@@ -13,6 +13,6 @@ class Welcome extends CI_Controller {
 			),
 			'views' => 'phone'
 		);
-		$this->load->view('phone');
+		$this->load->view('phone',$value['result']);
 	}
 }
