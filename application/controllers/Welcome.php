@@ -6,7 +6,7 @@ class Welcome extends CI_Controller {
 	public function loadpage($value){
 		$this->load->view('template/front/header');
 		$this->load->view('template/front/sidebar');
-		$this->load->view($value['view'],$value['result']);
+		$this->load->view($value['views'],$value['result']);
 		$this->load->view('template/front/footer');
 	}
 
@@ -18,7 +18,7 @@ class Welcome extends CI_Controller {
 			'result' => array(
 				'data' => $query
 			),
-			'view' => 'phone'
+			'views' => 'phone'
 		);
 		$this->loadpage($value);
 	}
@@ -36,6 +36,18 @@ class Welcome extends CI_Controller {
 		$this->load->view('insertform',$value['result']);
 		//$this->loadpage($value);
 	}
+	public function updateform()
+	{
+		$p_id = $this->uri->segment(3);
+		$query = $this->modelwelcome->read_one($p_id);
+		$value = array(
+			'result' => array(
+				'data' => $query
+			),
+			'views' => 'updateform'
+		);
+		$this->loadpage($value);
+	}
 	public function insert()
 	{
 		$input = $this->input->post();
@@ -43,5 +55,12 @@ class Welcome extends CI_Controller {
 		redirect('welcome');
 
 		$this->loadpage($value);
+	}
+	public function update()
+	{
+		$input = $this->input->post();
+		$this->modelwelcome->update($input);
+		redirect('welcome');
+		//print_r($value);
 	}
 }

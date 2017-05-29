@@ -18,12 +18,12 @@
 
 									<tr>
 										<td> Name</td>
-										<td>	<input type="text" name="name" value="<?php echo $data[0]['p_name']?>" class="form-control"></td>
+										<td>	<input type="text" name="p_name" value="<?php echo $data[0]['p_name']?>" class="form-control"></td>
 									</tr>
 
 									<tr>
 										<td>Detail</td>
-										<td><input type="text" name="detail" value="<?php echo $data[0]['detail']?>" class="form-control"></td>
+										<td><input type="text" name="p_detail" value="<?php echo $data[0]['p_detail']?>" class="form-control"></td>
 									</tr>
 
 

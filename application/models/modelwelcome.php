@@ -23,12 +23,18 @@ public function insert($input)
 {
  $this->db->insert('phonebrand',$input);
 }
-
+public function read_one($input)
+{
+	$query = $this->db
+	->where('p_id',$input)
+	->get('phonebrand')
+	->result_array();
+	return $query;
+}
 public function update($input)
 {
-  $this->db
-  ->where('p_id',$input['p_id'])
-  ->update('phonebrand',$input);
-
+ $this->db
+ ->where('p_id',$input['p_id'])
+ ->update('phonebrand',$input);
 }
 }
