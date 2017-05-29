@@ -38,11 +38,13 @@ class Welcome extends CI_Controller {
 	}
 	public function updateform()
 	{
+		$network = $this->modelwelcome->read_network();
 		$p_id = $this->uri->segment(3);
 		$query = $this->modelwelcome->read_one($p_id);
 		$value = array(
 			'result' => array(
-				'data' => $query
+				'data' => $query,
+				'network' => $network
 			),
 			'views' => 'updateform'
 		);
