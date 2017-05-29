@@ -41,9 +41,7 @@ class Welcome extends CI_Controller {
 		$input = $this->input->post();
 		$this->modelwelcome->insert($input);
 		redirect('welcome');
-		//print_r($value);
 
-		);
 		$this->loadpage($value);
 	}
 }
