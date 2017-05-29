@@ -8,7 +8,7 @@
 
     <table class="table table-hover" border="0">
       <head>
-        
+        <th>รหัส</th>
         <th>ชื่อโทรศัพท์</th>
         <th>ข้อมูล่</th>
         <th>เครือข่าย</th>
