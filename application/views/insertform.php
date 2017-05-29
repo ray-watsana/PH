@@ -1,27 +1,4 @@
 
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <i class="fa fa-bar-chart-o fa-fw"></i>DATA
-                            <div class="pull-right">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
-                                        Actions
-                                        <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu pull-right" role="menu">
-                                        <li><a href="#">Action</a>
-                                        </li>
-                                        <li><a href="#">Another action</a>
-                                        </li>
-                                        <li><a href="#">Something else here</a>
-                                        </li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Separated link</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
 
                         <div class="panel-body">
 													<div class="row">
@@ -40,7 +17,7 @@
 																			<h5>เพิ่มข้อมูล</h5>
 																			<table class="table table-hover" border="0">
 																				<tr>
-																					<td align="right">ชื่อ-นามสกุล :</td>
+																					<td align="right">ชื่อโทรศัพท์ :</td>
 																					<td><input type="text" class="form-control" name="mem_name" value=""></td>
 																				</tr>
 																				<tr>
