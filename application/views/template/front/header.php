@@ -393,6 +393,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
 
 ?>
+</html>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -409,3 +410,4 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <link rel="stylesheet" type="text/css" id="theme" href="<?php echo base_url('assets/css/theme-default.css'); ?>"/>
         <!-- EOF CSS INCLUDE -->
     </head>
+    </html>
