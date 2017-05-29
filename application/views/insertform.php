@@ -3,7 +3,7 @@
                         <div class="panel-body">
 													<div class="row">
 													<div class="col-lg-12">
-														<a href="<?php echo site_url('welcome/insertform'); ?>"><button name="button" class="btn btn-info" style="text-align:center">เพิ่ม</button></a>
+
 														<br><br>
 
 														<div class="row">
@@ -18,20 +18,27 @@
 																			<table class="table table-hover" border="0">
 																				<tr>
 																					<td align="right">ชื่อโทรศัพท์ :</td>
-																					<td><input type="text" class="form-control" name="mem_name" value=""></td>
+																					<td><select name="p_id">
+                                              <<?php foreach ($phonebrand as $key ): ?>
+                                                <?php if ($data[0]['p_id']==$key['p_name']): ?>
+                                                  <option selected value="<?php echo $key['p_id']?>" ><?php echo $key['p_name'] ?></option>
+
+                                                <?php else: ?>
+                                                  <option value="<?php echo $key['p_id']?>" ><?php echo $key['p_name'] ?></option>
+
+                                                <?php endif; ?>
+                                              <?php endforeach; ?>
+                                          </td>
 																				</tr>
 																				<tr>
-																					<td align="right">ที่อยู่ :</td>
-																					<td><input type="text" class="form-control" name="mem_address" value=""></td>
+																					<td align="right">ข้อมูล :</td>
+																					<td><input type="text" class="form-control" name="p_detail" value=""></td>
 																				</tr>
 																				<tr>
-																					<td align="right">เบอร์โทรศัพท์ :</td>
-																					<td><input type="text" class="form-control" name="mem_phone" value=""></td>
+																					<td align="right">เครือข่าย :</td>
+																					<td><input type="text" class="form-control" name="n_id" value=""></td>
 																				</tr>
-																				<tr>
-																					<td align="right">วันเดือนปีเกิด :</td>
-																					<td><input type="date" class="form-control" name="mem_bir" value=""></td>
-																				</tr>
+
 																				<tr>
 																					<td align="center" colspan="3"><input class="btn btn-info" type="submit" value="เพิ่ม"></td>
 																				</tr>
