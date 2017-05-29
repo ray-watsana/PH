@@ -23,7 +23,7 @@
       <td><?php echo $key['p_id']; ?></td>
       <td><?php echo $key['p_name'];?></td>
       <td><?php echo $key['p_detail'];?></td>
-      <td><?php echo $key['n_id'];?></td>
+      <td><?php echo $key['n_name'];?></td>
       <td><a href="<?php echo site_url('welcome/updateform/'.$key['p_id'])?>"><button name="button" class="btn btn-warning">แก้ไข</button></a>
       <a href="<?php echo site_url('welcome/del/'.$key['p_id'])?>" onclick="return confirm('ยืนยันการลบ !')"><button name="button" class="btn btn-danger">ลบ</button></a></td>
 
