@@ -17,7 +17,7 @@
         </div>
         <!-- end navbar-header -->
         <!-- navbar-top-links -->
-      
+
 
 
             <li class="dropdown">
@@ -137,51 +137,9 @@
                         </div>
                     </div>
                 </li>
-                <li class="xn-title">Navigation</li>
-                <li class="active">
-                    <a href="index.html"><span class="fa fa-desktop"></span> <span class="xn-text">Dashboard</span></a>
-                </li>
+              
 
 
-                <li class="xn-title">Components</li>
-
-                <li class="xn-openable">
-                    <a href="#"><span class="fa fa-pencil"></span> <span class="xn-text">Forms</span></a>
-                    <ul>
-                        <li>
-                            <a href="form-layouts-two-column.html"><span class="fa fa-tasks"></span> Form Layouts</a>
-                            <div class="informer informer-danger">New</div>
-                            <ul>
-                                <li><a href="form-layouts-one-column.html"><span class="fa fa-align-justify"></span> One Column</a></li>
-                                <li><a href="form-layouts-two-column.html"><span class="fa fa-th-large"></span> Two Column</a></li>
-                                <li><a href="form-layouts-tabbed.html"><span class="fa fa-table"></span> Tabbed</a></li>
-                                <li><a href="form-layouts-separated.html"><span class="fa fa-th-list"></span> Separated Rows</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="form-elements.html"><span class="fa fa-file-text-o"></span> Elements</a></li>
-                        <li><a href="form-validation.html"><span class="fa fa-list-alt"></span> Validation</a></li>
-                        <li><a href="form-wizards.html"><span class="fa fa-arrow-right"></span> Wizards</a></li>
-                        <li><a href="form-editors.html"><span class="fa fa-text-width"></span> WYSIWYG Editors</a></li>
-                        <li><a href="form-file-handling.html"><span class="fa fa-floppy-o"></span> File Handling</a></li>
-                    </ul>
-                </li>
-                <li class="xn-openable">
-                    <a href="tables.html"><span class="fa fa-table"></span> <span class="xn-text">Tables</span></a>
-                    <ul>
-                        <li><a href="table-basic.html"><span class="fa fa-align-justify"></span> Basic</a></li>
-                        <li><a href="table-datatables.html"><span class="fa fa-sort-alpha-desc"></span> Data Tables</a></li>
-                        <li><a href="table-export.html"><span class="fa fa-download"></span> Export Tables</a></li>
-                    </ul>
-                </li>
-                <li class="xn-openable">
-                    <a href="#"><span class="fa fa-bar-chart-o"></span> <span class="xn-text">Charts</span></a>
-                    <ul>
-                        <li><a href="charts-morris.html"><span class="xn-text">Morris</span></a></li>
-                        <li><a href="charts-nvd3.html"><span class="xn-text">NVD3</span></a></li>
-                        <li><a href="charts-rickshaw.html"><span class="xn-text">Rickshaw</span></a></li>
-                        <li><a href="charts-other.html"><span class="xn-text">Other</span></a></li>
-                    </ul>
-                </li>
                 <li>
                     <a href="maps.html"><span class="fa fa-map-marker"></span> <span class="xn-text">Maps</span></a>
                 </li>
