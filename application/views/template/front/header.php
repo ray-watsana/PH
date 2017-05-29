@@ -170,15 +170,7 @@
                         </ul>
                         <!-- second-level-items -->
                     </li>
-                     <li>
-                        <a href="timeline.html"><i class="fa fa-flask fa-fw"></i>Timeline</a>
-                    </li>
-                    <li>
-                        <a href="tables.html"><i class="fa fa-table fa-fw"></i>Tables</a>
-                    </li>
-                    <li>
-                        <a href="forms.html"><i class="fa fa-edit fa-fw"></i>Forms</a>
-                    </li>
+                    
                     <li>
                         <a href="#"><i class="fa fa-wrench fa-fw"></i>UI Elements<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
@@ -200,7 +192,7 @@
                         </ul>
                         <!-- second-level-items -->
                     </li>
-                  
+
                     <li>
                         <a href="#"><i class="fa fa-files-o fa-fw"></i>Sample Pages<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
