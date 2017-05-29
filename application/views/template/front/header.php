@@ -1,5 +1,5 @@
 <?php
-<<<<<<< HEAD
+
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
@@ -392,9 +392,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <!--End Page Header -->
             </div>
 
-=======
-defined('BASEPATH') OR exit ('no direct script access allowed');
->>>>>>> a2674b956c6f42ad6465ff9d65eebd89b61c0ae8
 ?>
 <!DOCTYPE html>
 <html lang="en">
