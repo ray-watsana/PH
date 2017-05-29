@@ -18,17 +18,7 @@
 																			<table class="table table-hover" border="0">
 																				<tr>
 																					<td align="right">ชื่อโทรศัพท์ :</td>
-																					<td><select name="p_id">
-                                              <<?php foreach ($phonebrand as $key ): ?>
-                                                <?php if ($data[0]['p_id']==$key['p_name']): ?>
-                                                  <option selected value="<?php echo $key['p_id']?>" ><?php echo $key['p_name'] ?></option>
-
-                                                <?php else: ?>
-                                                  <option value="<?php echo $key['p_id']?>" ><?php echo $key['p_name'] ?></option>
-
-                                                <?php endif; ?>
-                                              <?php endforeach; ?>
-                                          </td>
+																					<td><input type="text" class="form-control" name="p_name" value="">  </td>
 																				</tr>
 																				<tr>
 																					<td align="right">ข้อมูล :</td>
