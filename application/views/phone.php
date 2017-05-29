@@ -5,6 +5,8 @@
 
     <div class="row">
       <div class="col-md-12">
+        <a href="<?php echo site_url('welcome/insertform'); ?>"><button name="button" class="btn btn-info" style="text-align:center">เพิ่ม</button></a>
+        <br><br>
 
     <table class="table table-hover" border="1">
       <head>
