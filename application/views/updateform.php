@@ -27,7 +27,19 @@
 									</tr>
 									<tr>
 										<td>Network</td>
-										<td><input type="text" name="n_id" value="<?php echo $data[0]['n_id']?>" class="form-control"></td>
+										<td>
+										<select name="n_id">
+											<<?php foreach ($network as $key ): ?>
+												<?php if ($data[0]['n_id']==$key['n_id']): ?>
+													<option selected value="<?php echo $key['n_id']?>" ><?php echo $key['n_name'] ?></option>
+
+												<?php else: ?>
+													<option value="<?php echo $key['n_id']?>" ><?php echo $key['n_name'] ?></option>
+
+												<?php endif; ?>
+											<?php endforeach; ?>
+										</select>
+										</td>
 									</tr>
 									<tr>
 										<td>Numphone</td>
