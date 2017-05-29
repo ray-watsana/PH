@@ -14,6 +14,7 @@
         <th>ชื่อโทรศัพท์</th>
         <th>ข้อมูล</th>
         <th>เครือข่าย</th>
+        <th>จำนวน</th>
         <th colspan="2">จัดการ</th>
       </head>
     <?php foreach ($data as $key): ?>
@@ -24,6 +25,7 @@
       <td><?php echo $key['p_name'];?></td>
       <td><?php echo $key['p_detail'];?></td>
       <td><?php echo $key['n_name'];?></td>
+      <td><?php echo $key['p_num'];?></td>
       <td><a href="<?php echo site_url('welcome/updateform/'.$key['p_id'])?>"><button name="button" class="btn btn-warning">แก้ไข</button></a>
       <a href="<?php echo site_url('welcome/del/'.$key['p_id'])?>" onclick="return confirm('ยืนยันการลบ !')"><button name="button" class="btn btn-danger">ลบ</button></a></td>
 
