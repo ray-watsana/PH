@@ -382,17 +382,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </nav>
         <!-- end navbar side -->
         <!--  page-wrapper -->
-        <div id="page-wrapper">
+      
 
-            <div class="row">
-                <!-- Page Header -->
-                <div class="col-lg-12">
-                    <h1 class="page-header">Dashboard</h1>
-                </div>
-                <!--End Page Header -->
-            </div>
 
-?>
+</html>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -409,3 +402,4 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <link rel="stylesheet" type="text/css" id="theme" href="<?php echo base_url('assets/css/theme-default.css'); ?>"/>
         <!-- EOF CSS INCLUDE -->
     </head>
+    </html>
