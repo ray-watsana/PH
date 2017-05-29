@@ -28,7 +28,10 @@
 																					<td align="right">เครือข่าย :</td>
 																					<td><input type="text" class="form-control" name="n_id" value=""></td>
 																				</tr>
-
+                                        <tr>
+																					<td align="right">จำนวน :</td>
+																					<td><input type="text" class="form-control" name="p_num" value=""></td>
+																				</tr>
 																				<tr>
 																					<td align="center" colspan="3"><input class="btn btn-info" type="submit" value="เพิ่ม"></td>
 																				</tr>

@@ -25,13 +25,14 @@
 										<td>Detail</td>
 										<td><input type="text" name="p_detail" value="<?php echo $data[0]['p_detail']?>" class="form-control"></td>
 									</tr>
-
-
 									<tr>
 										<td>Network</td>
 										<td><input type="text" name="n_id" value="<?php echo $data[0]['n_id']?>" class="form-control"></td>
 									</tr>
-
+									<tr>
+										<td>Numphone</td>
+										<td><input type="text" name="p_num" value="<?php echo $data[0]['p_num']?>" class="form-control"></td>
+									</tr>
 									<tr>
 									<input type="hidden"  name="p_id" value="<?php echo $data[0]['p_id']?>" >
 									<br><br>
