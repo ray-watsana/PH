@@ -6,11 +6,11 @@
     <div class="row">
       <div class="col-md-12">
 
-    <table class="table table-hover" border="0">
+    <table class="table table-hover" border="1">
       <head>
-        
+        <th>รหัส</th>
         <th>ชื่อโทรศัพท์</th>
-        <th>ข้อมูล่</th>
+        <th>ข้อมูล</th>
         <th>เครือข่าย</th>
       </head>
     <?php foreach ($data as $key): ?>
