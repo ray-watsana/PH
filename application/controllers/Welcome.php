@@ -25,7 +25,7 @@ class Welcome extends CI_Controller {
 	public function insertform()
 	{
 		$network = $this->modelwelcome->read_network();
-		//$this->load->view('insertform');
+		//$this->load->views('insertform');
 		$value = array(
 			'result' => array(
 				'network' => $network
@@ -33,8 +33,8 @@ class Welcome extends CI_Controller {
 			),
 			'views' => 'insertform'
 		);
-		$this->load->view('insertform',$value['result']);
-		//$this->loadpage($value);
+		//$this->load->views('insertform',$value['result']);
+		$this->loadpage($value);
 	}
 	public function updateform()
 	{
