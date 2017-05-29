@@ -10,7 +10,12 @@ $this->db->join('network','phonebrand.n_id = network.n_id','left');
 $db = $this->db->get('phonebrand')->result_array();
 return $db;
 }
-
+public function del($p_id)
+{
+	$this->db
+	->where('p_id',$p_id)
+	->delete('phonebrand');
+}
 public function read_phonebrand()
 {
 	$db = $this->db

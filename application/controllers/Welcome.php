@@ -48,6 +48,12 @@ class Welcome extends CI_Controller {
 		);
 		$this->loadpage($value);
 	}
+	public function del()
+	{
+		$p_id = $this->uri->segment(3);
+		$this->modelwelcome->del($p_id);
+		redirect('welcome');
+	}
 	public function insert()
 	{
 		$input = $this->input->post();
