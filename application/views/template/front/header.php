@@ -71,11 +71,8 @@
                 <ul class="nav" id="side-menu">
                     <li>
                         <!-- user image section-->
-                        <div class="user-section">
-                            <div class="user-section-inner">
-                                <img src="<?php echo base_url('assets/img/user.jpg') ?>" alt="">
-                            </div>
-                          
+                    
+
 
 
 
