@@ -6,6 +6,7 @@ class modelwelcome extends CI_Model {
 
 public function read_db()
 {
+$this->db->join('phonebrand','phonebrand.p_id = network.n_id','left');
 $db = $this->db->get('phonebrand')->result_array();
 return $db;
 }
