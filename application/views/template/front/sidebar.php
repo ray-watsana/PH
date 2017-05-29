@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <div id="wrapper">
     <!-- navbar top -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar">
@@ -235,7 +235,7 @@
     <!-- end navbar top -->
 
     <!-- navbar side -->
-=======
+
 <body>
     <!-- START PAGE CONTAINER -->
     <div class="page-container">
@@ -518,4 +518,3 @@
 <!-- END SCRIPTS -->
 </body>
 </html>
->>>>>>> a2674b956c6f42ad6465ff9d65eebd89b61c0ae8

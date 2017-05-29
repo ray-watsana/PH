@@ -1,5 +1,4 @@
 <?php
-<<<<<<< HEAD
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
@@ -391,8 +390,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <!--End Page Header -->
             </div>
-=======
-defined('BASEPATH') OR exit ('no direct script access allowed');
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -410,4 +408,3 @@ defined('BASEPATH') OR exit ('no direct script access allowed');
         <link rel="stylesheet" type="text/css" id="theme" href="<?php echo base_url('assets/css/theme-default.css'); ?>"/>
         <!-- EOF CSS INCLUDE -->
     </head>
->>>>>>> a2674b956c6f42ad6465ff9d65eebd89b61c0ae8

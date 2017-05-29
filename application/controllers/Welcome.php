@@ -19,6 +19,7 @@ class Welcome extends CI_Controller {
 				'data' => $query
 			),
 			'view' => 'phone'
+<<<<<<< HEAD
 		);
 		$this->loadpage($value);
 	}
@@ -42,5 +43,9 @@ class Welcome extends CI_Controller {
 		$this->modelwelcome->insert($input);
 		redirect('welcome');
 		//print_r($value);
+=======
+		);
+		$this->loadpage($value);
+>>>>>>> a2674b956c6f42ad6465ff9d65eebd89b61c0ae8
 	}
 }
