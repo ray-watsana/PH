@@ -1,9 +1,4 @@
 
-    <!-- end navbar top -->
-
-    <!-- navbar side -->
-
-
 <body>
     <!-- START PAGE CONTAINER -->
     <div class="page-container">

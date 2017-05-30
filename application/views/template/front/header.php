@@ -31,38 +31,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 
-        <!-- navbar side -->
-        <nav class="navbar-default navbar-static-side" role="navigation">
-            <!-- sidebar-collapse -->
-            <div class="sidebar-collapse">
-                <!-- side-menu -->
-                <ul class="nav" id="side-menu">
-                    <li>
-                        <!-- user image section-->
-                        <div class="user-section">
-                            <div class="user-section-inner">
-                                <img src="<?php echo base_url('assets/img/user.jpg') ?>" alt="">
-                            </div>
-
-                        </div>
-                        <!--end user image section-->
-                    </li>
-
-
-
-
-                        <!-- second-level-items -->
-                    </li>
-                </ul>
-                <!-- end side-menu -->
-            </div>
-            <!-- end sidebar-collapse -->
-        </nav>
-        <!-- end navbar side -->
-        <!--  page-wrapper -->
-
-
-
 </html>
 <!DOCTYPE html>
 <html lang="en">
