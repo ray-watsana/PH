@@ -1,3 +1,12 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <i class="fa fa-bar-chart-o fa-fw"></i>DATA
+        <div class="pull-right">
+            <div class="btn-group">
+
+            </div>
+        </div>
+    </div>
 <div class="col-md-12">
 	<div class="card">
 		<div class="header">
@@ -55,7 +64,17 @@
 
 								</table>
 							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+							</div>
+
+							</div>
+							</div>
+							</div>
+							<!-- /.panel-body -->
+							</div>
+							<!--End simple table example -->
+
+							</div>
+
+							<!--End simple table example -->
+
+							</div>
