@@ -8,7 +8,7 @@
         <a href="<?php echo site_url('welcome/insertform'); ?>"><button name="button" class="btn btn-info" style="text-align:center">เพิ่ม</button></a>
         <br><br>
 
-    <table class="table table-hover" border="1">
+    <table class="table table-hover" border="0">
       <head>
         <th>รหัส</th>
         <th>ชื่อยี่ห้อ</th>
