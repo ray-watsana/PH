@@ -1,5 +1,5 @@
 
-<body>
+
     <!-- START PAGE CONTAINER -->
     <div class="page-container">
 
@@ -279,4 +279,3 @@
     <script type="text/javascript" src="<?php echo base_url('assets/js/demo_dashboard.js');?>"></script>
     <!-- END TEMPLATE -->
 <!-- END SCRIPTS -->
-</body>
