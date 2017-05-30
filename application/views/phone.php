@@ -11,7 +11,7 @@
     <table class="table table-hover" border="1">
       <head>
         <th>รหัส</th>
-        <th>ชื่อยี้ห้อ์</th>
+        <th>ชื่อยี่ห้อ</th>
         <th>ข้อมูล</th>
         <th>เครือข่าย</th>
         <th>จำนวน</th>
