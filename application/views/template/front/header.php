@@ -1,3 +1,6 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>
 
 
 <!DOCTYPE html>
@@ -27,7 +30,7 @@
 
 
 
-            
+
         <!-- navbar side -->
         <nav class="navbar-default navbar-static-side" role="navigation">
             <!-- sidebar-collapse -->
